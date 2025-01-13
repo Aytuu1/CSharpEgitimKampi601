@@ -381,7 +381,7 @@
       // label11
       // 
       this.label11.AutoSize = true;
-      this.label11.Location = new System.Drawing.Point(2, 245);
+      this.label11.Location = new System.Drawing.Point(-1, 250);
       this.label11.Name = "label11";
       this.label11.Size = new System.Drawing.Size(1171, 20);
       this.label11.TabIndex = 7;
@@ -442,13 +442,12 @@
       // label6
       // 
       this.label6.AutoSize = true;
-      this.label6.Location = new System.Drawing.Point(2, 68);
+      this.label6.Location = new System.Drawing.Point(2, 62);
       this.label6.Name = "label6";
-      this.label6.Size = new System.Drawing.Size(1171, 20);
+      this.label6.Size = new System.Drawing.Size(1087, 20);
       this.label6.TabIndex = 1;
       this.label6.Text = "---------------------------------------------------------------------------------" +
-    "--------------------------------------------------------------------------------" +
-    "-----";
+    "-------------------------------------------------------------------------";
       // 
       // lblbankProcess1
       // 
