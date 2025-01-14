@@ -39,7 +39,7 @@ Bu repo, C# dilini öğrenme sürecimde gerçekleştirdiğim projeleri ve çeşi
 
 ## 📷 Ekran Görüntüleri
 
-![Proje 15 Resmi](path_to_image.png)
+("/images/crmAdminLogin.png")
 
 ---
 
