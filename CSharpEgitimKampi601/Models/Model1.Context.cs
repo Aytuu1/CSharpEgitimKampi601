@@ -32,5 +32,6 @@ namespace CSharpEgitimKampi601.Models
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<TblCategory> TblCategory { get; set; }
         public virtual DbSet<Users> Users { get; set; }
+        public virtual DbSet<AdminLogin> AdminLogin { get; set; }
     }
 }

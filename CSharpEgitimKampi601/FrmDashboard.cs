@@ -54,14 +54,6 @@ namespace CSharpEgitimKampi601
         series2.Points.AddXY(item.BillTitle, item.BillAmount);
       }
 
-
-
-
-
-
-
-
-
     }
 
     private void timer1_Tick(object sender, EventArgs e)
@@ -95,6 +87,146 @@ namespace CSharpEgitimKampi601
         lblBillTitle.Text = "İnternet Faturası";
         lblBillAmount.Text = netBill.ToString() + " ₺";
       }
+
+    }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+      FrmCategory frmCategory = new FrmCategory();
+      frmCategory.Show();
+      this.Hide();
+    }
+
+    private void button2_Click(object sender, EventArgs e)
+    {
+      FrmBanks frmBanks = new FrmBanks();
+      frmBanks.Show();
+      this.Hide();
+    }
+
+    private void button3_Click(object sender, EventArgs e)
+    {
+      FrmBiiling frmBiiling = new FrmBiiling();
+      frmBiiling.Show();
+      this.Hide();
+    }
+
+    private void panel2_Paint(object sender, PaintEventArgs e)
+    {
+
+    }
+
+    private void panel5_Paint(object sender, PaintEventArgs e)
+    {
+
+    }
+
+    private void label4_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void lblBillAmount_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void panel4_Paint(object sender, PaintEventArgs e)
+    {
+
+    }
+
+    private void lblBillTitle_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void lblTotalBalance_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void label2_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void label1_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void lblLastBankProcessAmount_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void button8_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void button7_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void button6_Click(object sender, EventArgs e)
+    {
+      FrmDashboard frmDashboard = new FrmDashboard();
+      frmDashboard.Show();
+      this.Close();
+    }
+
+    private void button5_Click(object sender, EventArgs e)
+    {
+      FrmSpendings frmSpendings = new FrmSpendings();
+      frmSpendings.Show();
+      this.Close();
+    }
+
+    private void btnBillForm_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void panel3_Paint(object sender, PaintEventArgs e)
+    {
+
+    }
+
+    private void panel1_Paint(object sender, PaintEventArgs e)
+    {
+
+    }
+
+    private void chart1_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void chart2_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void panel6_Paint(object sender, PaintEventArgs e)
+    {
+
+    }
+
+    private void label3_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void panel7_Paint(object sender, PaintEventArgs e)
+    {
+
+    }
+
+    private void label5_Click(object sender, EventArgs e)
+    {
 
     }
   }

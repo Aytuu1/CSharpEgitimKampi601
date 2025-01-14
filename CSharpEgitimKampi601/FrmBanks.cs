@@ -19,7 +19,6 @@ namespace CSharpEgitimKampi601
 
     private void FrmBanks_Load(object sender, EventArgs e)
     {
-
       // Banka Bakiyeleri
 
       var ziraatBankBalance = db.Banks.Where(x => x.BankTitle == "Ziraat Bankası").Select(y => y.BankBalance).FirstOrDefault();
@@ -76,6 +75,39 @@ namespace CSharpEgitimKampi601
       FrmBiiling frmBiiling = new FrmBiiling();
       frmBiiling.Show();
       this.Hide();
+    }
+
+    private void label1_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+      FrmCategory category = new FrmCategory();
+      category.Show();
+      this.Close();
+    }
+
+    private void button2_Click(object sender, EventArgs e)
+    {
+      FrmBanks frmBanks = new FrmBanks();
+      frmBanks.Show();
+      this.Close();
+    }
+
+    private void button3_Click(object sender, EventArgs e)
+    {
+      FrmBiiling frmBiiling = new FrmBiiling();
+      frmBiiling.Show();
+      this.Close();
+    }
+
+    private void button5_Click(object sender, EventArgs e)
+    {
+      FrmSpendings frmSpendings = new FrmSpendings();
+      frmSpendings.Show();
+      this.Close();
     }
   }
 }

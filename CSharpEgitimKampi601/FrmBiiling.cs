@@ -83,5 +83,38 @@ namespace CSharpEgitimKampi601
       frmBanks.Show();
       this.Hide();
     }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+      FrmCategory frmCategory = new FrmCategory();
+      frmCategory.Show();
+      this.Close();
+    }
+
+    private void button3_Click(object sender, EventArgs e)
+    {
+      FrmBiiling frmBiiling = new FrmBiiling();
+      frmBiiling.Show();
+      this.Close();
+    }
+
+    private void button4_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void button5_Click(object sender, EventArgs e)
+    {
+      FrmSpendings frmSpendings = new FrmSpendings();
+      frmSpendings.Show();
+      this.Close();
+    }
+
+    private void button6_Click(object sender, EventArgs e)
+    {
+      FrmDashboard frmDashboard = new FrmDashboard();
+      frmDashboard.Show();
+      this.Close();
+    }
   }
 }
