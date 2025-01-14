@@ -40,6 +40,7 @@ Bu repo, C# dilini öğrenme sürecimde gerçekleştirdiğim projeleri ve çeşi
 ## 📷 Ekran Görüntüleri
 
 (CSharpEgitimKampi601/images/crmAdminLogin.png)
+![Admin Login Resmi](CSharpEgitimKampi601/images/crmAdminLogin.png)
 
 ---
 
