@@ -340,6 +340,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="images\crmAdminLogin.png" />
+    <Content Include="images\crmdashboard.png" />
+    <Content Include="images\crmFatura.png" />
+    <Content Include="images\crmHarcamalar.png" />
+    <Content Include="images\pgadmin.png" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
